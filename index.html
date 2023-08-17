@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alex Smith</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="img/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <style>
+      section {
+        scroll-margin-top: 50px;
+      }
+      #cv:hover {
+        background-color: rgb(13, 110, 253) !important;
+      }
+      #contact:hover {
+        background-color: rgb(255, 193, 7) !important;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      #text-testimonial {
+        margin: 0% 15%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-sm bg-white fixed-top border-bottom">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <span class="fw-bold">Alex </span>
+          <span>Smith</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Testimonial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#client">Clients</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- HERO BANNER START -->
+    <section class="p-5 text-center text-sm-start">
+      <div class="container pt-5">
+        <div class="d-sm-flex">
+          <div class="p-3">
+            <img
+              src="img/hero.jpg"
+              alt="alex-smith"
+              width="300px"
+              class="rounded-circle border border-5"
+            />
+          </div>
+          <div class="p-5">
+            <h3 class="lead">Full Stack Developer</h3>
+            <h1 class="fw-bold">ALEX SMITH</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
+              delectus nulla sint illum! Voluptas saepe asperiores voluptate
+              magnam, eveniet modi incidunt similique iste perspiciatis ipsum.
+              Laudantium odio nemo adipisci officiis!
+            </p>
+            <button
+              class="btn btn-light bg-white rounded-pill border border-primary border-2 m-2 px-4"
+              id="cv"
+            >
+              <a href="img/cv.pdf" doownload target="_blank">Download CV</a>
+            </button>
+            <button
+              class="btn btn-light bg-white rounded-pill border border-warning border-2 m-2 px-4"
+              id="contact"
+            >
+              <a href="mailto:alexsmith@gmail.com">Contact</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- HERO BANNER END -->
+
+    <!-- SKILLS START -->
+    <section id="skills">
+      <div class="container p-5">
+        <div class="row justify-content-evenly g-5">
+          <h2 class="border-bottom">Skills</h2>
+          <div class="col-md-5 border border-3 p-5 rounded-3">
+            <h4 class="text-center">Front End</h4>
+            <div class="p-3">
+              <h6>HTML:</h6>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example with label"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-success" style="width: 90%">
+                  9/10
+                </div>
+              </div>
+            </div>
+            <div class="p-3">
+              <h6>CSS:</h6>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example with label"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-success" style="width: 80%">
+                  8/10
+                </div>
+              </div>
+            </div>
+            <div class="p-3">
+              <h6>JavaScript:</h6>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example with label"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-success" style="width: 75%">
+                  7.5/10
+                </div>
+              </div>
+            </div>
+            <div class="p-3">
+              <h6>Bootstrap:</h6>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example with label"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-success" style="width: 90%">
+                  9/10
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 border border-3 p-5 rounded-3">
+            <h4 class="text-center">Back End</h4>
+            <div class="p-3">
+              <h6>Java:</h6>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example with label"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-success" style="width: 80%">
+                  8/10
+                </div>
+              </div>
+            </div>
+            <div class="p-3">
+              <h6>Python:</h6>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example with label"
+                aria-valuenow="70"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-success" style="width: 70%">
+                  7/10
+                </div>
+              </div>
+            </div>
+            <div class="p-3">
+              <h6>PHP:</h6>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example with label"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-success" style="width: 90%">
+                  9/10
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SKILLS END -->
+
+    <!-- SERVICES START -->
+    <section id="services">
+      <div class="container p-5">
+        <div class="row g-4">
+          <h2 class="border-bottom">Services</h2>
+          <div class="col-md-6">
+            <h4><i class="bi bi-laptop text-info"></i> Web Design</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
+              eos commodi maiores dolorum inventore ea quibusdam eveniet, esse,
+              omnis ipsum quis! Beatae reiciendis atque nisi eos ea? Provident,
+              autem commodi.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h4><i class="bi bi-bag-check text-info"></i> E-Commerce</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
+              totam voluptas saepe? Ipsum veniam eos omnis, ut optio nisi
+              explicabo nesciunt dignissimos labore? Excepturi mollitia ut
+              laboriosam quisquam. Voluptate, asperiores.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h4><i class="bi bi-cloud text-info"></i> Cloud Computing</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia
+              officiis nostrum doloribus dolor voluptate facilis libero? Cumque
+              tenetur quia ut deleniti, consequuntur laboriosam perferendis
+              corrupti? Odio assumenda soluta at provident.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h4><i class="bi bi-robot text-info"></i> Machine Learning</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              eligendi corporis id, officia culpa laboriosam delectus sit
+              quibusdam quidem quod? Aperiam perferendis optio quae rem
+              quisquam, eligendi a distinctio voluptates.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SERVICES END -->
+
+    <!-- TESTIMONIAL START -->
+    <section id="testimonial">
+      <div class="container p-5">
+        <div class="row mb-5">
+          <h2 class="border-bottom">Testimonial</h2>
+          <div
+            id="carouselExampleDark"
+            class="carousel carousel-dark slide pt-5"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div
+                class="carousel-item active text-center"
+                data-bs-interval="10000"
+              >
+                <img
+                  src="img/testimonial-1.jpg"
+                  class="rounded-circle"
+                  alt="..."
+                  width="200px"
+                />
+                <div class="">
+                  <h5 class="p-3">James Brown</h5>
+                  <p id="text-testimonial">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Itaque temporibus, qui consectetur deleniti eos aliquid
+                    optio possimus iure! Voluptas doloribus, quos qui odio
+                    officia itaque commodi eius architecto cum tempora.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item text-center" data-bs-interval="2000">
+                <img
+                  src="img/testimonial-2.jpg"
+                  class="rounded-circle"
+                  alt="..."
+                  width="200px"
+                />
+                <div class="">
+                  <h5 class="p-3">Gary Blue</h5>
+                  <p id="text-testimonial">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Itaque temporibus, qui consectetur deleniti eos aliquid
+                    optio possimus iure! Voluptas doloribus, quos qui odio
+                    officia itaque commodi eius architecto cum tempora.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item text-center">
+                <img
+                  src="img/testimonial-3.jpg"
+                  class="rounded-circle"
+                  alt="..."
+                  width="200px"
+                />
+                <div class="">
+                  <h5 class="p-3">William Green</h5>
+                  <p id="text-testimonial">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Itaque temporibus, qui consectetur deleniti eos aliquid
+                    optio possimus iure! Voluptas doloribus, quos qui odio
+                    officia itaque commodi eius architecto cum tempora.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TESTIMONIAL END -->
+
+    <!-- CLIENTS START -->
+    <section id="client">
+      <div class="container p-5">
+        <div class="row g-5 align-items-center">
+          <h2 class="border-bottom">Clients</h2>
+          <div class="col text-center">
+            <img src="img/google.png" alt="" height="50" />
+          </div>
+          <div class="col text-center">
+            <img src="img/bca.jpeg" alt="" height="100" />
+          </div>
+          <div class="col text-center">
+            <img src="img/telkom.png" alt="" height="80" />
+          </div>
+          <div class="col text-center">
+            <img src="img/uob.png" alt="" height="40" />
+          </div>
+          <div class="col text-center">
+            <img src="img/axiata.png" alt="" height="80" />
+          </div>
+          <div class="col text-center">
+            <img src="img/bni.png" alt="" height="40" />
+          </div>
+          <div class="col text-center">
+            <img src="img/indosat.png" alt="" height="60" />
+          </div>
+          <div class="col text-center">
+            <img src="img/unilever.png" alt="" height="100" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CLIENTS END -->
+
+    <!-- FOOTER START -->
+    <footer class="p-5">
+      <p class="text-center">Belajar Coding &copy;</p>
+    </footer>
+    <!-- FOOTER END -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
